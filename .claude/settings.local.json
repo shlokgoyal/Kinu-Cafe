@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node -e \"require\\('./src/app'\\); console.log\\('app loads OK'\\)\")",
+      "Bash(timeout 8 node server.js)",
+      "Bash(timeout 20 node server.js)",
+      "Bash(git checkout *)"
+    ]
+  }
+}
